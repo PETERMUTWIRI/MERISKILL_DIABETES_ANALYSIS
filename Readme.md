@@ -1,11 +1,10 @@
 
 ## Diabetes Prediction with Machine Learning
-
-This project aims to develop a machine learning model to predict the onset of diabetes based on various health and lifestyle factors. The project involves data preprocessing, model building, evaluation, and hyperparameter tuning.
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 ### Data Preprocessing
+This project aims to develop a machine learning model to predict the onset of diabetes based on various health and lifestyle factors. The project involves data preprocessing, model building, evaluation, and hyperparameter tuning.
 
 The dataset contains various features related to health indicators and lifestyle habits. The data is preprocessed to handle missing values, standardize numerical features, and encode categorical variables.
 
