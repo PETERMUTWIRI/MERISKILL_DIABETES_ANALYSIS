@@ -37,7 +37,25 @@ Hyperparameter tuning is performed using GridSearchCV to optimize the models for
 ### Results
 
 The best-performing model is selected based on the highest F1 score achieved during hyperparameter tuning. The selected model is saved as a pickle file for deployment in an application.
+# Stramlit Application
+### Installation
+To install and run this project, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/PETERMUTWIRI/MERISKILL_DIABETES_ANALYSIS
+
+# Change directory
+cd MERISKILL_DIABETES_ANALYSIS
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the FastAPI application
+streamlit run streamlit.py
+```
+Access the web application at [http://localhost:8501](http://localhost:8501) in your browser.
 
 ### Conclusion
 
-The project demonstrates the application of machine learning for predicting diabetes risk based on health and lifestyle factors. The trained model can be used in applications to provide personalized risk assessments and inform preventive measures.
+The project demonstrates the application of machine learning for predicting diabetes risk based on health and lifestyle factors. The application can be used in applications to provide personalized risk assessments and inform preventive measures.
