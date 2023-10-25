@@ -1,0 +1,36 @@
+
+## Diabetes Prediction with Machine Learning
+
+This project aims to develop a machine learning model to predict the onset of diabetes based on various health and lifestyle factors. The project involves data preprocessing, model building, evaluation, and hyperparameter tuning.
+
+### Data Preprocessing
+
+The dataset contains various features related to health indicators and lifestyle habits. The data is preprocessed to handle missing values, standardize numerical features, and encode categorical variables.
+
+### Model Building
+
+Two machine learning models are explored for predicting diabetes:
+
+- **Logistic regression:** A statistical model that predicts the probability of an outcome based on a set of independent variables. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
+
+- **Decision tree:** A tree-like structure that classifies instances based on a series of decision rules. [more]: [https://scikit-learn.org/stable/modules/tree.html]
+
+Pipelines are used to streamline the preprocessing and modeling steps.
+
+### Model Evaluation
+
+The models are evaluated using two metrics:
+
+- **Accuracy:** The proportion of correctly classified instances.
+
+- **F1 score:** A measure of the balance between precision and recall. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html]
+
+Hyperparameter tuning is performed using GridSearchCV to optimize the models for F1 score. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html]
+
+### Results
+
+The best-performing model is selected based on the highest F1 score achieved during hyperparameter tuning. The selected model is saved as a pickle file for deployment in an application.
+
+### Conclusion
+
+The project demonstrates the application of machine learning for predicting diabetes risk based on health and lifestyle factors. The trained model can be used in applications to provide personalized risk assessments and inform preventive measures.
