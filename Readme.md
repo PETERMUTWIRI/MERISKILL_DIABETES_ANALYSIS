@@ -1,9 +1,10 @@
 
 ## Diabetes Prediction with Machine Learning
-
-This project aims to develop a machine learning model to predict the onset of diabetes based on various health and lifestyle factors. The project involves data preprocessing, model building, evaluation, and hyperparameter tuning.
-
+[![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 ### Data Preprocessing
+This project aims to develop a machine learning model to predict the onset of diabetes based on various health and lifestyle factors. The project involves data preprocessing, model building, evaluation, and hyperparameter tuning.
 
 The dataset contains various features related to health indicators and lifestyle habits. The data is preprocessed to handle missing values, standardize numerical features, and encode categorical variables.
 
@@ -11,9 +12,9 @@ The dataset contains various features related to health indicators and lifestyle
 
 Two machine learning models are explored for predicting diabetes:
 
-- **Logistic regression:** A statistical model that predicts the probability of an outcome based on a set of independent variables. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
+- **Logistic regression:** A statistical model that predicts the probability of an outcome based on a set of independent variables. [more](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
-- **Decision tree:** A tree-like structure that classifies instances based on a series of decision rules. [more]: [https://scikit-learn.org/stable/modules/tree.html]
+- **Decision tree:** A tree-like structure that classifies instances based on a series of decision rules. [more](https://scikit-learn.org/stable/modules/tree.html)
 
 Pipelines are used to streamline the preprocessing and modeling steps.
 
@@ -23,9 +24,9 @@ The models are evaluated using two metrics:
 
 - **Accuracy:** The proportion of correctly classified instances.
 
-- **F1 score:** A measure of the balance between precision and recall. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html]
+- **F1 score:** A measure of the balance between precision and recall. [more](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
 
-Hyperparameter tuning is performed using GridSearchCV to optimize the models for F1 score. [more]: [https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html]
+Hyperparameter tuning is performed using GridSearchCV to optimize the models for F1 score. [more](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 
 ### Results
 
