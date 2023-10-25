@@ -55,7 +55,7 @@ pip install -r requirements.txt
 streamlit run streamlit.py
 ```
 Access the web application at [http://localhost:8501](http://localhost:8501) in your browser.
-
+Access my well funtioning application at[https://meriskilldiabetesanalysis-aldiyjptsmc7wq7kknnkrb.streamlit.app/](https://meriskilldiabetesanalysis-aldiyjptsmc7wq7kknnkrb.streamlit.app/)
 ### Conclusion
 
 The project demonstrates the application of machine learning for predicting diabetes risk based on health and lifestyle factors. The application can be used in applications to provide personalized risk assessments and inform preventive measures.
