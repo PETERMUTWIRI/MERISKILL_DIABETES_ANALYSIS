@@ -3,6 +3,8 @@
         <p>Diabetes streamlit application screenshort</p>
         <img src="Assets/diabetes app.png" alt="Top" width="90%"/>
     </div>
+
+    
 ## Diabetes Prediction with Machine Learning
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
